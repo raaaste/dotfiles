@@ -12,7 +12,7 @@
 set $mod Mod4
 
 # Load .Xresources
-exec xrdb ~/.Xresources
+exec --no-startup-id xrdb -load ~/.Xresources
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -196,6 +196,10 @@ exec_always --no-startup-id ~/.fehbg
 # Lock the screen
 bindsym Mod1+Control+l exec i3lock
 
+# browser script to launch with pac proxy flag
+set $browser chromium-with-pac
+#set $browser chromium-browser
+
 # Assign programs to workspaces
 assign [class="Mate-terminal"] $workspace1
 assign [class="Chromium-browser"] $workspace2
@@ -203,7 +207,7 @@ assign [class="Chromium-browser"] $workspace2
 # Launch default programs at login
 exec $terminal
 exec $terminal
-exec chromium-with-pac
+exec $browser 
 
 # set colors
 set $green "#39E949"

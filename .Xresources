@@ -19,8 +19,8 @@ URxvt.scrollBar: false
 
 ! Urxvt colors
 ! special
-*.foreground:   #CBCBCB
-*.background:   #2E2E2E
+*foreground:   #CBCBCB
+*background:   #2E2E2E
 *.cursorColor:  #CBCBCB
 ! black
 *.color0:       #000000

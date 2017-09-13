@@ -1,8 +1,9 @@
+#!/bin/sh
 alias l='ls -al'
 alias cd..='cd ..'
 
-if -f [ $HOME/.omat_env ]; then
-	source $HOME/.omat_env
+if [ -f ~/.duuni_env ]; then
+	. ~/.duuni_env
 fi
 
 alias tog='cd ~/git/' 
