@@ -1,0 +1,48 @@
+! Font configuration
+URxvt.font: xft:Droid Sans Mono Slashed:size=10
+URxvt.boldFont: xft:Droid Sans Mono Slashed:size=10
+
+! Font rendering configurations
+Xft*antialias:rgba
+Xft*hinting:true
+! calculate dpi with xdpyinfo | grep resolution
+Xft*dpi:96
+! hintslight | hintsmedium | hintsfull
+Xft*hintstyle:hintslight
+Xft.rgba: rgb
+
+! less spacing between letters and lines
+URxvt.letterSpace:-1
+URxvt.lineSpace:-3
+
+URxvt.scrollBar: false
+
+! Urxvt colors
+! special
+*.foreground:   #CBCBCB
+*.background:   #2E2E2E
+*.cursorColor:  #CBCBCB
+! black
+*.color0:       #000000
+*.color8:       #717171
+! red
+*.color1:       #F15056
+*.color9:       #F15056
+! green
+*.color2:       #39E949
+*.color10:      #39E949
+! yellow
+*.color3:       #F9C536
+*.color11:      #F9C536
+! blue
+*.color4:       #3875e0
+*.color12:      #3875e0
+! magenta
+*.color5:       #F996E2
+*.color13:      #F996E2
+! cyan
+*.color6:       #94C2E4
+*.color14:      #94C2E4
+! white
+*.color7:       #CDCDCD
+*.color15:      #F9F9F9
