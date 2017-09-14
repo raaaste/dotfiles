@@ -1,6 +1,6 @@
 ! Font configuration
-URxvt.font: xft:Droid Sans Mono Slashed:size=10
-URxvt.boldFont: xft:Droid Sans Mono Slashed:size=10
+URxvt.font: xft:Droid Sans Mono Slashed:size=9
+URxvt.boldFont: xft:Droid Sans Mono Slashed:size=9
 
 ! Font rendering configurations
 Xft*antialias:rgba
