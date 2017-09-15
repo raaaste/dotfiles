@@ -12,7 +12,7 @@ Xft*hintstyle:hintslight
 Xft.rgba: rgb
 
 ! less spacing between letters and lines
-URxvt.letterSpace:-1
+URxvt.letterSpace:-2
 URxvt.lineSpace:-3
 
 URxvt.scrollBar: false
