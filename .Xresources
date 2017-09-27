@@ -1,26 +1,28 @@
 ! Font configuration
-URxvt.font: xft:Droid Sans Mono Slashed:size=9
-URxvt.boldFont: xft:Droid Sans Mono Slashed:size=9
+URxvt.font: 	xft:Droid Sans Mono Slashed:size=9
+URxvt.boldFont:	xft:Droid Sans Mono Slashed:size=9
 
 ! Font rendering configurations
-Xft*antialias:rgba
-Xft*hinting:true
+Xft*hinting:	true
+Xft*antialias:  true
+Xft*autohint:   0
+Xft*lcdfilter:  lcddefault
 ! calculate dpi with xdpyinfo | grep resolution
-Xft*dpi:96
+Xft*dpi:	96
 ! hintslight | hintsmedium | hintsfull
-Xft*hintstyle:hintslight
-Xft.rgba: rgb
+Xft*hintstyle:	hintslight
+Xft.rgba:	rgb
 
 ! less spacing between letters and lines
 URxvt.letterSpace:-2
 URxvt.lineSpace:-3
 
-URxvt.scrollBar: false
+URxvt.scrollBar:false
 
 ! Urxvt colors
 ! special
-*foreground:   #CBCBCB
-*background:   #2E2E2E
+*foreground:	#CBCBCB
+*background:	#2E2E2E
 *.cursorColor:  #CBCBCB
 ! black
 *.color0:       #000000

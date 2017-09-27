@@ -194,13 +194,14 @@ exec_always --no-startup-id ~/.fehbg
 bindsym Mod1+Control+l exec i3lock
 
 # browser script to launch with pac proxy flag
-set $browser chromium-with-pac
+#set $browser chromium-with-pac
 #set $browser chromium-browser
+set $browser firefox
 
 # Assign programs to workspaces
 assign [class="Mate-terminal"] $workspace1
 assign [class="Chromium-browser"] $workspace2
-
+assign [class="Firefox"] $workspace2
 # Launch default programs at login
 exec $terminal
 exec $terminal
