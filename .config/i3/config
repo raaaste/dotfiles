@@ -184,6 +184,10 @@ bar {
 	}
 	
 }
+
+# run compton
+exec --no-startup-id compton
+
 # run mate-settings-daemon to get better font configuration
 exec --no-startup-id mate-settings-daemon
 
