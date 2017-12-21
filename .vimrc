@@ -10,3 +10,6 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 set hlsearch
+" Press Space to turn off highlighting and clear any message already displayed.
+:nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+hi Search ctermbg=12 ctermfg=15
