@@ -20,10 +20,10 @@ map <left> :echoerr "Älä hölmöile!"<CR>
 map <right> :echoerr "Älä hölmöile!"<CR>
 
 " Disable Arrow keys in Insert mode
-imap <up> :echoerr "Älä hölmöile!"<CR>
-imap <down> :echoerr "Älä hölmöile!"<CR>
-imap <left> :echoerr "Älä hölmöile!"<CR>
-imap <right> :echoerr "Älä hölmöile!"<CR>
+"imap <up> :echoerr "Älä hölmöile!"<CR>
+"imap <down> :echoerr "Älä hölmöile!"<CR>
+"imap <left> :echoerr "Älä hölmöile!"<CR>
+"imap <right> :echoerr "Älä hölmöile!"<CR>
 
 " Disable Arrow keys in Visual mode
 vmap <up> :echoerr "Älä hölmöile!"<CR>

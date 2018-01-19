@@ -1,6 +1,6 @@
 ! Font configuration
 URxvt.font: 	xft:Droid Sans Mono Slashed:size=9
-URxvt.boldFont:	xft:Droid Sans Mono Slashed:size=9
+URxvt.boldFont:
 
 ! Font rendering configurations
 Xft*hinting:	true
@@ -15,7 +15,7 @@ Xft.rgba:	rgb
 
 ! less spacing between letters and lines
 URxvt.letterSpace:-2
-URxvt.lineSpace:-3
+URxvt.lineSpace:0
 
 URxvt.scrollBar:false
 
